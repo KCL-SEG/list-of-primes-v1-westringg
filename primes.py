@@ -23,4 +23,4 @@ def primes(number_of_primes):
 
     return list
 
-print(primes(10))
+#print(primes(10))
