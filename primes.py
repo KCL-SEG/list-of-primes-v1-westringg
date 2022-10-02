@@ -8,10 +8,10 @@ def primes(number_of_primes):
 
     while len(list)<number_of_primes:
         isPrime=True
-        print('curNum', curNum)
+        #print('curNum', curNum)
         divider=2
         while(divider<curNum):
-            print('divider', divider)
+            #print('divider', divider)
             if curNum%divider==0:
                 isPrime=False
             divider=divider+1
